@@ -1,4 +1,5 @@
 <?php
+$title = "Page login";
 if (isset($_GET['status']) && $_GET['status'] == 'berhasil_register') {
     echo '<h4>Berhasil Register</h4>';
 }
