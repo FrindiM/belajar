@@ -24,8 +24,11 @@ require 'config.php';
         $page = $_GET['page'];
 
         switch ($page) {
-            case 'lari':
-                include "page/lari.php";
+            case 'admin':
+                include "page/admin/index.php";
+                break;
+            case 'user':
+                include "page/user/index.php";
                 break;
         }
     } else {
